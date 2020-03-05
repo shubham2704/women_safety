@@ -68,7 +68,7 @@ class _SignupPageState extends State<SignupPage> {
                   SizedBox(height: 10.0),
                   TextField(
                     decoration: InputDecoration(
-                        labelText: 'PASSWORD ',
+                        labelText: 'Mobile Number ',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
@@ -80,7 +80,7 @@ class _SignupPageState extends State<SignupPage> {
                   SizedBox(height: 10.0),
                   TextField(
                     decoration: InputDecoration(
-                        labelText: 'Mobile Number ',
+                        labelText: 'PASSWORD ',
                         labelStyle: TextStyle(
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.bold,
