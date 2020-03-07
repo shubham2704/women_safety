@@ -1,6 +1,10 @@
+
+
 import 'package:flutter/material.dart';
 
 import 'signup.dart';
+import 'home.dart';
+import 'stacked_icons.dart';
 
 void main() => runApp(new MyApp());
 
@@ -106,7 +110,11 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.blueAccent,
                         elevation: 7.0,
                         child: GestureDetector(
-                          onTap: () {},
+                          onTap: () {
+                            Navigator.push(context, MaterialPageRoute(
+                              builder: (context) => HomePage()
+                              ));
+                          },
                           child: Center(
                             child: Text(
                               'LOGIN',
